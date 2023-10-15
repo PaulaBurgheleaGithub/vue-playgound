@@ -5,9 +5,10 @@
 	</div>
 <!-- Step 3 Use the component in the template -->
 	<div>
-		<SimpleMessage />
-		<SimpleMessage />
-		<Counter />
+		<!-- <SimpleMessage />
+		<SimpleMessage /> -->
+		<Counter :maxValue="30" :minValue="0"/>
+		<Counter :maxValue="20" :minValue="5"/>
 	</div>
 
 </template>
